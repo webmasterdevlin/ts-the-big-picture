@@ -1,0 +1,19 @@
+{
+"default": {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/basic.ts",
+        "preLaunchTask": "tsc: build - tsconfig.json",
+         "outFiles": [
+        "${workspaceFolder}/build/**/*.js"
+    ]
+},
+"chrome": {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "file:///Users/devlinduldulao/Documents/Development/TypeScript/ts-the-big-picture/basic.html",
+            "webRoot": "${workspaceFolder}"
+    }
+}

@@ -5,14 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/basic.ts",
-            "preLaunchTask": "tsc: build - tsconfig.json",
-            "outFiles": [
-                "${workspaceFolder}/build/**/*.js"
-            ]
+            // "type": "node",
+            // "request": "launch",
+            // "name": "Launch Program",
+            // "program": "${workspaceFolder}/basic.ts",
+            // "preLaunchTask": "tsc: build - tsconfig.json",
+            // "outFiles": [
+            //     "${workspaceFolder}/build/**/*.js"
+            // ]
+                        "type": "chrome",
+                        "request": "launch",
+                        "name": "Launch Chrome against localhost",
+                        "url": "file:///Users/devlinduldulao/Documents/Development/TypeScript/ts-the-big-picture/basic.html",
+                        "webRoot": "${workspaceFolder}"
         }
     ]
 }
