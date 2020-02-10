@@ -37,6 +37,7 @@
       "noUnusedLocals": true,
       "esModuleInterop": true,
       "forceConsistentCasingInFileNames": true,
+      "project": "../tsconfig.json",
       "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {},
