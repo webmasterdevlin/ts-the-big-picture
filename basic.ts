@@ -6,6 +6,7 @@ class Customer {
     }
 
     announce() {
+        let forLint = "hi eslint!";
         return "Hello, my name is " + this.name;
     }
 }

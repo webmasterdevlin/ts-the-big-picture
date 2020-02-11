@@ -1,5 +1,5 @@
 {
-"default": {
+    "default": {
         "type": "node",
         "request": "launch",
         "name": "Launch Program",
@@ -9,11 +9,11 @@
         "${workspaceFolder}/build/**/*.js"
     ]
 },
-"chrome": {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "file:///Users/devlinduldulao/Documents/Development/TypeScript/ts-the-big-picture/basic.html",
-            "webRoot": "${workspaceFolder}"
+    "chrome": {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Chrome against localhost",
+        "url": "file:///Users/devlinduldulao/Documents/Development/TypeScript/ts-the-big-picture/basic.html",
+        "webRoot": "${workspaceFolder}"
     }
 }
